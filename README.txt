@@ -1,0 +1,1 @@
+HI! This is my first GIT & GitHub project. I wrote a simple calculator on C#
