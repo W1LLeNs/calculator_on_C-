@@ -31,8 +31,15 @@
             }
             else if (typeOfMathActivity == '/')
             {
-                double result4 = firstNumber / secondNumber;
-                Console.WriteLine($"{firstNumber} / {secondNumber} = {result4}");
+                if (secondNumber == 0)
+                {
+                    Console.WriteLine("Ділення на нуль неможливе!");
+                } 
+                else
+                {
+                    double result4 = firstNumber / secondNumber;
+                    Console.WriteLine($"{firstNumber} / {secondNumber} = {result4}");
+                }  
             }
         } while (true);
     }
